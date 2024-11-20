@@ -1,0 +1,177 @@
+.header-cont{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+
+#h-button{
+    background-color: rgb(171, 40, 171);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button{
+  width: max-content;
+  height: 50px;
+  padding: 0.5rem;
+}
+
+.cont-task{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.4rem;
+}
+
+.task-cont{
+  background-color: white ;
+  display: flex;
+  padding: 1rem;
+  width: 700px;
+  border-radius: 20px;
+  /* flex-direction: column; */
+  justify-content: space-around ;
+  align-items: center;
+  gap: 3rem;
+}
+.task-indi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+#task-title{
+  color: gray;
+}
+
+#pro-title{
+  color: gray;
+}
+#pro-name{
+  color: red;
+}
+
+.btn-prog{
+  width: max-content;
+  height: 30px;
+}
+
+.active{
+  display: block !important;
+  position: absolute;
+  top: 0;  
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+#addtask{
+  display: none;
+
+}
+
+#edittask{
+  display: none;
+}
+
+#deletetask{
+  display: none;
+}
+.btn-addtask{
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.addtask-cont{
+  margin: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 1rem;
+  padding: 3rem;
+  background-color: white;
+  justify-content: space-between;
+}
+.a-head{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.taskbox-cont{
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.task-name{
+  padding: 0.7rem;
+  width: 300px;
+  font-size: 18px;
+}
+
+.prior-cont{
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.btns-cont{
+  display: flex;
+  gap: 1.3rem;
+}
+
+
+.highlight{
+  color: red;
+}
+#high{
+  color: red;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+#med{
+  color: yellow;
+  border: 2px solid yellow;
+  border-radius: 10px;
+}
+
+#low{
+  color: green;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+.prior-btn{
+  background-color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.handletodo{
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  width: 50px;
+}
+
+.btn-list{
+  border: none;
+  width: 50px;
+  font-size: 23px;
+  background-color: white;
+  /* padding: 0.3rem; */
+  cursor: pointer;
+}
